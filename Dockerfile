@@ -10,3 +10,6 @@ RUN apk add --update -t --no-cache \
     openssh \
     && pip install --upgrade --no-cache-dir pip \
     && pip install --no-cache-dir commitizen==$CZ_VERSION
+
+LABEL org.opencontainers.image.source=https://github.com/salcatroppa/commitizen-ssh-docker
+LABEL org.opencontainers.image.description="A commitizen Docker image with SSH."
