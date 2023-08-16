@@ -5,7 +5,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 WORKDIR /app
 
-ARG CZ_VERSION=3.1.1
+ARG CZ_VERSION=3.6.0
 RUN apk add --update -t --no-cache \
     git \
     curl \
